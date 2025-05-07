@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/komalup1991.github.io/",
+  base: "/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
