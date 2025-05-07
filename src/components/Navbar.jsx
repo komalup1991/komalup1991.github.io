@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "./ThemeToggle"; 
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -22,6 +23,7 @@ export const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <nav
       className={cn(
@@ -35,8 +37,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> Komal's Portfolio </span>{" "}
-            
+            <span className="text-glow text-foreground"> Komal's Portfolio </span>
           </span>
         </a>
 
@@ -53,14 +54,15 @@ export const Navbar = () => {
           ))}
         </div>
 
-        {/* mobile nav */}
+        <ThemeToggle />
 
+        {/* mobile nav */}
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
           className="md:hidden p-2 text-foreground z-50"
           aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
+          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         <div
