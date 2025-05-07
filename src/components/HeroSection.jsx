@@ -10,7 +10,7 @@ export const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10 text-center md:text-left">
           {/* Image */}
           <img
-            src="/pho.jpg"
+            src={`${import.meta.env.BASE_URL}pho.jpg`}
             alt="Komal"
             className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-primary shadow-md"
           />
