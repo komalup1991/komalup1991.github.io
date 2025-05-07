@@ -65,20 +65,6 @@ import {
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full bg-primary/10">
-                    <Phone className="h-6 w-6 text-primary" />{" "}
-                  </div>
-                  <div>
-                    <h4 className="font-medium"> Phone</h4>
-                    <a
-                      href="tel:+3414650123"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                      +1 (341) 465-0123
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="p-3 rounded-full bg-primary/10">
                     <MapPin className="h-6 w-6 text-primary" />{" "}
                   </div>
                   <div>
@@ -93,14 +79,8 @@ import {
               <div className="pt-8">
                 <h4 className="font-medium mb-4"> Connect With Me</h4>
                 <div className="flex space-x-4 justify-center">
-                  <a href="#" target="_blank">
+                  <a href="https://www.linkedin.com/in/komal-upadhyay-aa69335a/" target="_blank">
                     <Linkedin />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Twitter />
-                  </a>
-                  <a href="#" target="_blank">
-                    <Instagram />
                   </a>
                 </div>
               </div>

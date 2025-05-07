@@ -6,19 +6,19 @@ export const SkillsSection = () => {
       {
         category: "Languages & Frameworks",
         items: [
-          "Go", "Python", "Kotlin", "TypeScript", "Java", "gRPC", "Jetpack Compose", "React"
+          "Go", "Python", "Kotlin", "TypeScript", "Java", "Jetpack Compose", "React", "Android SDK"
         ],
       },
       {
         category: "Backend & Databases",
         items: [
-          "PostgreSQL", "Redis", "Kafka", "Firebase"
+          "PostgreSQL", "Redis", "Kafka", "Firebase","MongoDb"
         ],
       },
       {
         category: "Cloud & DevOps",
         items: [
-          "AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions"
+          "AWS", "Kubernetes", "Docker", "Terraform", "GitHub Actions", "Azure", "GPC"
         ],
       },
       {
